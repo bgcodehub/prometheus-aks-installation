@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: prometheus-pvc
+  namespace: prometheus
+spec:
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 50Gi  # Adjust the size as needed for your environment
+  # If you have a specific storage class, specify it here. Otherwise, the default will be used.
+  # storageClassName: <your-storage-class-name>
