@@ -57,14 +57,6 @@ Once deployed, you can access the Prometheus web UI and Alertmanager interface t
 
 Special attention is required for monitoring Windows nodes due to the differences in operating system. The windows-exporter DaemonSet should be deployed to these nodes to collect appropriate metrics.
 
-## Contributing
-
-We welcome contributions. Please follow the standard fork, branch, and pull request workflow.
-
-## License
-
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for full details.
-
 ## Additional Resources
 
 - For detailed Prometheus concepts and configuration options, please refer to [Prometheus documentation](https://prometheus.io/docs/introduction/overview/).
